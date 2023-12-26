@@ -19,7 +19,7 @@ const anim = (variants) => {
 }
 
 export default function Curve({children}) {
-  const router = useRouter
+  const router = useRouter()
   const [dimensions, setDimensions] = useState({
     height: null,
     width: null

@@ -1,5 +1,6 @@
 @import '../components/Layout/Inner/style.scss';
 @import '../components/Layout/Grid/style.scss';
+@import '../components/Layout/Curve/style.scss';
 
 * {
   box-sizing: border-box;
@@ -16,6 +17,7 @@
     position: fixed;
     left: 0;
     top: 0;
+    // overflow-y: hidden;
     a {
       text-decoration: none;
       color: black;
